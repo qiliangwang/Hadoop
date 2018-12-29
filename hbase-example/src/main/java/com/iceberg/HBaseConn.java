@@ -18,7 +18,7 @@ public class HBaseConn {
         try {
             if (configuration == null) {
                 configuration = HBaseConfiguration.create();
-                configuration.set("hbase.zookeeper.quorum", "localhost:2181");
+                configuration.set("hbase.zookeeper.quorum", "192.168.3.128:2181");
             }
 
         } catch (Exception e) {
