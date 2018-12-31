@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1c44bb6-cd1a-4214-bfe3-766381e386b0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/hbase-simple.md" beforeDir="false" afterPath="$PROJECT_DIR$/hbase-simple.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,7 +45,7 @@
     <session id="-641114513">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.13" value="1" />
@@ -70,20 +70,33 @@
         <counts>
           <entry key="class" value="2" />
           <entry key="java" value="2" />
-          <entry key="md" value="3" />
+          <entry key="md" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="JAVA" value="2" />
-          <entry key="Markdown" value="3" />
+          <entry key="Markdown" value="4" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hbase-simple.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="57">
+                <caret line="3" selection-start-line="3" selection-end-line="3" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -126,7 +139,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1920" />
     <option name="y" value="-2" />
     <option name="width" value="1920" />
@@ -358,7 +371,7 @@
       <workItem from="1545986226104" duration="7984000" />
       <workItem from="1545995835034" duration="380000" />
       <workItem from="1545996572132" duration="7736000" />
-      <workItem from="1546225112879" duration="1459000" />
+      <workItem from="1546225112879" duration="4031000" />
     </task>
     <task id="LOCAL-00001" summary="HBase basic op">
       <created>1546057043227</created>
@@ -403,7 +416,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18097000" />
+    <option name="totallyTimeSpent" value="20669000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -415,9 +428,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="-2" width="1920" height="1082" extended-state="7" />
+    <frame x="1920" y="-2" width="1920" height="1082" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49786323" visible="true" weight="0.26840982" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49786323" visible="true" weight="0.26840982" />
       <window_info id="Structure" order="1" sideWeight="0.50213677" side_tool="true" weight="0.26520813" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -432,7 +446,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49839914" weight="0.32983193" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4994664" visible="true" weight="0.5147059" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.4994664" visible="true" weight="0.5147059" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5010672" side_tool="true" weight="0.32983193" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info active="true" anchor="bottom" id="Messages" order="11" sideWeight="0.49893278" visible="true" weight="0.32983193" />
@@ -521,16 +535,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hbase-simple.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="19">
-            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/iceberg/HBaseConn.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -548,6 +552,16 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hbase-simple.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="57">
+            <caret line="3" selection-start-line="3" selection-end-line="3" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
