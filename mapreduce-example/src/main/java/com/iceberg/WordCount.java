@@ -1,6 +1,7 @@
 package com.iceberg;
 
 import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
@@ -48,6 +49,14 @@ public class WordCount {
 
         //创建Configuration
         Configuration configuration = new Configuration();
+
+        // 准备清理已存在的输出目录
+        Path outputPath = new Path(args[1]);
+        FileSystem fileSystem = FileSystem.get(configuration);
+        if(fileSystem.exists(outputPath)){
+            fileSystem.delete(outputPath, true);
+            System.out.println("output file exists, has deleted");
+        }
 
         //创建Job
         Job job = Job.getInstance(configuration, "WordCount");
