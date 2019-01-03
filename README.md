@@ -41,7 +41,7 @@ hadoop fs -mv /hdfs的路径1  /hdfs的另一个路径2
 hadoop fs -mv /hadoop-2.7.3.tar.gz /software/rename.gz
 ```
 
-​	复制hdfs中的文件到hdfs的另一个目录
+​	复制hdfs中的文件到hdfs的另一个目录  
 
 ```bash
 hadoop fs -cp /hdfs路径_1  /hdfs路径_2
