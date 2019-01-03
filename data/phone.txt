@@ -1,0 +1,7 @@
+xiaomi 100
+huawei 150
+iphone 230
+oppo 100
+vivo 150
+xiaomi 200
+huawei 150
