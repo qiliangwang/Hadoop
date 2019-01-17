@@ -36,12 +36,16 @@ public class BucketServiceImpl implements BucketService {
         BucketModel bucketModel = new BucketModel(bucketName, userInfo.getUserName(), detail);
         bucketModelMapper.addBucket(bucketModel);
         // TODO add auth for bucket and user
+        addAuth(userInfo, bucketName);
+        return true;
+    }
+
+    private void addAuth(UserInfo userInfo, String bucketName) {
         ServiceAuth serviceAuth = new ServiceAuth();
         serviceAuth.setAuthTime(new Date());
         serviceAuth.setTargetToken(userInfo.getUserId());
         serviceAuth.setBucketName(bucketName);
         authService.addAuth(serviceAuth);
-        return true;
     }
 
     @Override
